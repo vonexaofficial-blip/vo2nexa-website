@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Start a Project | Vonexa</title>
+  <meta name="description" content="Contact Vonexa to start your digital project. Web development, branding, and professional digital solutions." />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">VONEXA</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="btn">Start a Project</a>
+    </nav>
+  </header>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <h1>Start a Project</h1>
+    <p>Tell us about your requirement. We’ll get back to you shortly.</p>
+
+    <!-- NETLIFY FORM -->
+    <form name="vonexa-contact" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="vonexa-contact">
+
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="tel" name="whatsapp" placeholder="WhatsApp Number" required />
+
+      <select name="service" required>
+        <option value="">Select Service</option>
+        <option>Website Development</option>
+        <option>Branding</option>
+        <option>Landing Page</option>
+        <option>Digital Setup</option>
+        <option>Custom Requirement</option>
+      </select>
+
+      <textarea name="message" rows="5" placeholder="Briefly describe your project"></textarea>
+
+      <button type="submit" class="btn primary">Submit Request</button>
+    </form>
+
+    <!-- WHATSAPP DIRECT -->
+    <div class="whatsapp-box">
+      <p>Need quick support?</p>
+      <a href="https://wa.me/919511953158" class="btn">Chat on WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Vonexa. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
